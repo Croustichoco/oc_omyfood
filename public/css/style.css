@@ -1,0 +1,129 @@
+.acceuil__image {
+  width: 180px;
+  height: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.acceuil__localisation {
+  background-color: rgba(103, 110, 103, 0.2);
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 5px 2px rgba(103, 110, 103, 0.4);
+  /*border: 4px solid #F2F2F2;
+  border-bottom: none;
+  border-color: rgba(103, 110, 103, 0.3);*/
+}
+.acceuil__localisation .acceuil__localisation__logo {
+  font-size: 100px;
+}
+.acceuil__localisation p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.acceuil__exploration {
+  background-color: rgba(229, 231, 229, 0.4);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.acceuil__exploration h1 {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 0;
+  padding-top: 37px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.acceuil__exploration p {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-top: 0;
+}
+.acceuil__exploration button {
+  padding: 17px 5px 17px 5px;
+  border-radius: 35px;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+  background-color: rgba(165, 4, 138, 0.5);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 70px;
+}
+
+.fonctionnement__nav {
+  margin-bottom: 85px;
+}
+.fonctionnement__nav h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 201x;
+}
+.fonctionnement__nav .fonctionnement__nav__rubric {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(229, 231, 229, 0.4);
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 22px;
+  margin-bottom: 30px;
+}
+.fonctionnement__nav .fonctionnement__nav__rubric .fonctionnement__nav__rubric__nombre {
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid;
+  background-color: rgb(142, 68, 211);
+  border-radius: 50%;
+  padding: 4px 10px;
+}
+.fonctionnement__nav .fonctionnement__nav__rubric .fonctionnement__nav__rubric__logo {
+  font-size: 50px;
+}
+.fonctionnement__nav .fonctionnement__nav__rubric p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.acceuil__restaurants {
+  background-color: rgba(229, 231, 229, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.acceuil__restaurants h2 {
+  padding-top: 62px;
+  margin-left: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.acceuil__restaurants .acceuil__restaurants__un__resto {
+  width: 90%;
+}
+.acceuil__restaurants .acceuil__restaurants__un__resto .acceuil__restaurants__un__resto__image {
+  width: 100%;
+}
+.acceuil__restaurants .acceuil__restaurants__un__resto .acceuil__restaurants__un__resto__info {
+  display: flex;
+}
+.acceuil__restaurants .acceuil__restaurants__un__resto__info__description .acceuil__restaurants__un__resto__info__description__nom {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
